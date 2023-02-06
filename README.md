@@ -8,4 +8,5 @@
 
 ##Dependência
 
-Subir o docker-compose do PostgessSQL;
+Subir o docker-compose do PostgessSQL ("está localizado na pasta: api/src/main/docker/postgres");
+Subir arquivo docker-compose.yml, usando o comando: docker-compose up
