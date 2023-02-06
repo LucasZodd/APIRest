@@ -12,6 +12,7 @@ CREATE TABLE TAB_MEDICOS (
     NOME varchar(100) NOT NULL,
     EMAIL varchar(100) NOT NULL unique,
     TELEFONE VARCHAR(20) NOT NULL;
+    ATIVO BOOLEAN NOT NULL;
     CRM varchar(6) NOT NULL unique,
     especialidade varchar(100) NOT NULL,
     logradouro varchar(100) NOT NULL,
